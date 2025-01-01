@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.ArrayList;
 
-public class Solution {
+public class ArrayList {
 
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);

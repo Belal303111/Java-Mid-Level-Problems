@@ -2,8 +2,8 @@ import java.util.*;
 interface AdvancedArithmetic{
   int divisor_sum(int n);
 }
-
-class MyCalculator implements AdvancedArithmetic{
+// MyCalculator
+class Interface implements AdvancedArithmetic{
    public int  divisor_sum(int n){
        int i=1,j=0;
        while(i<=n)

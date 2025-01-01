@@ -1,9 +1,3 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
 class Arithmetic{
     public int add(int a,int b)
     {
@@ -14,7 +8,7 @@ class Adder extends Arithmetic{
     
 }
 
-public class Solution{
+public class Inheritance2{
     public static void main(String []args){
         // Create a new Adder object
         Adder a = new Adder();
