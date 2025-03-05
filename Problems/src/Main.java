@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.LinkedList;
 
 public class Main {
-    public static int GCD(int a,int b){
+    public static int GCD(int a,int b){ 
         int temp;
         while (b!=0)
         {
