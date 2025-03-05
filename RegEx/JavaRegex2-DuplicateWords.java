@@ -20,6 +20,12 @@ public class DuplicateWords {
             // Check for subsequences of input that match the compiled pattern
             while (m.find()) {
                 input = input.replaceAll(m.group(0),m.group(1));
+                /*
+                input("this is Hello hello")
+                input = input.replaceAll(m.group(0), m.group(1));
+                m.group(0) → The full duplicate match (e.g., "Hello hello").
+                m.group(1) → The first occurrence of the word (e.g., "Hello").
+                */
             }
             // Prints the modified sentence.
             System.out.println(input);
